@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Assets_Angel/Escenario_Angel.unity
+- path: Assets/Assets_Xavi/Mid.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
