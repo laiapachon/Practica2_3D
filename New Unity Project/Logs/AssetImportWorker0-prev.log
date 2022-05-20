@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16263 MB
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 24521 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-S:\Unity\Unity_Uni\2020.3.30f1\Editor\Unity.exe
+X:\Juegos Unity\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-S:/GitHub/Practica2_3D/New Unity Project
+X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61148
-Successfully changed project path to: S:/GitHub/Practica2_3D/New Unity Project
-S:/GitHub/Practica2_3D/New Unity Project
+58055
+Successfully changed project path to: X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
+X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path S:/GitHub/Practica2_3D/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path X:/Juegos Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     8081 MB
-    Driver:   30.0.15.1123
+    VRAM:     4018 MB
+    Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Mono path[0] = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001110 seconds.
+Register platform support module: X:/Juegos Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002752 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.548 seconds
+- Completed reload, in  0.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (548ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (428ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (393ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (163ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (143ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (31ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002293 seconds.
+Registered in 0.003573 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  0.889 seconds
 Domain Reload Profiling:
-	ReloadAssembly (942ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (293ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
+System memory in use before: 69.3 MB.
 System memory in use after: 69.4 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 2.428800 ms (FindLiveObjects: 0.102000 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.227100 ms  DeleteObjects: 0.060600 ms)
+Total: 2.070600 ms (FindLiveObjects: 0.096100 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.895800 ms  DeleteObjects: 0.044000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,151 +132,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets_Angel/Spawns/TSpawn.fbx
-  artifactKey: Guid(10a8be9c510b36140a4adef83d560ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Spawns/TSpawn.fbx using Guid(10a8be9c510b36140a4adef83d560ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952533c9816417d2ba1ad4d03351c854') in 0.216348 seconds 
+  path: Assets/Assets_Xavi
+  artifactKey: Guid(68af1e4c153f6f6459c37b1e6540a8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi using Guid(68af1e4c153f6f6459c37b1e6540a8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab783f6bc3f462447297a05a8292402') in 0.011108 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.297086 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn
-  artifactKey: Guid(cede51fd1c351244ebb8c5fbfae11c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn using Guid(cede51fd1c351244ebb8c5fbfae11c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6d4c40f30719185deb248e4e02abc7') in 0.002095 seconds 
+  Time since last request: 2.052187 seconds.
+  path: Assets/Assets_Xavi/Mid.unity
+  artifactKey: Guid(28860ea2445fa684ab12108c6740106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/Mid.unity using Guid(28860ea2445fa684ab12108c6740106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015c349860432d20b3f5be521811450c') in 0.016298 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062594 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Albedo.png
-  artifactKey: Guid(169eb75394c480a4eb899af3cfabc723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Albedo.png using Guid(169eb75394c480a4eb899af3cfabc723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae44e0ea86c3d49ea11d64a28d5368b') in 0.030987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_AO.png
-  artifactKey: Guid(de1316bcb3341b34e97f0942906db51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_AO.png using Guid(de1316bcb3341b34e97f0942906db51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99894e4f71bff50c52e5cad97f3e7f2') in 0.011887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Normal.png
-  artifactKey: Guid(fd258c22d6bad494681fa01ae74224ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Normal.png using Guid(fd258c22d6bad494681fa01ae74224ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13851638f540c7ae73400b857bedd7e') in 0.012280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Height.png
-  artifactKey: Guid(860abe08bbfff6b429e768c7595584fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Height.png using Guid(860abe08bbfff6b429e768c7595584fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f758557916a13e4044e3cdd1b5f361b2') in 0.011471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Metallic.png
-  artifactKey: Guid(1af1dd6cd008f4947aaed059ad946220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Metallic.png using Guid(1af1dd6cd008f4947aaed059ad946220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0dec2c956847c1d25e9b99d4ce985f') in 0.014863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.183020 seconds.
-  path: Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Normal.png
-  artifactKey: Guid(fd258c22d6bad494681fa01ae74224ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/TSpawn/TSpawn_Material.013_Normal.png using Guid(fd258c22d6bad494681fa01ae74224ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5da11e4ef6100fe6f456f609c4717e1') in 0.010984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 183.761233 seconds.
-  path: Assets/Assets_Angel/Sand
-  artifactKey: Guid(a44ebcef284d94a47ae058f1c34eedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Sand using Guid(a44ebcef284d94a47ae058f1c34eedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ff10701e2db8dfece4ca384d920764') in 0.005991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.394943 seconds.
-  path: Assets/Assets_Angel/Sand/Dunes.fbx
-  artifactKey: Guid(aa1f1aa9a465deb439b4bcfe240d5157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Sand/Dunes.fbx using Guid(aa1f1aa9a465deb439b4bcfe240d5157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a95c337f47b8028c8da30b8a432724') in 0.108060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.089030 seconds.
-  path: Assets/Assets_Angel/Textures/Sand
-  artifactKey: Guid(8a5e60134541f964ba60eaca34549b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand using Guid(8a5e60134541f964ba60eaca34549b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e019dfc87bac9d067ed8778b6832cdd') in 0.002147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.068260 seconds.
-  path: Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Albedo.png
-  artifactKey: Guid(133c40251d045fd4f86445f1227c976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Albedo.png using Guid(133c40251d045fd4f86445f1227c976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d29f2a0703e2e20bf994940d3367e30') in 0.011596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Metallic.png
-  artifactKey: Guid(a843593b4f285b84aafd246042f6d8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Metallic.png using Guid(a843593b4f285b84aafd246042f6d8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4947da8df3471dbc0abc029177af77d8') in 0.011084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_AO.png
-  artifactKey: Guid(2d07b0930a4550c4f93563f64f9e6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_AO.png using Guid(2d07b0930a4550c4f93563f64f9e6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa468dcef68665f5f140663397811869') in 0.011729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Height.png
-  artifactKey: Guid(2fe2b22f9f86dca47b4354ceeda99bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Height.png using Guid(2fe2b22f9f86dca47b4354ceeda99bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3864db1576cee970002fc5e0da8cc85a') in 0.013562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Normal.png
-  artifactKey: Guid(ebb661bdfefe3e44ca4ab32e77d25ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand/Dunes_DefaultMaterial_Normal.png using Guid(ebb661bdfefe3e44ca4ab32e77d25ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fcff63ec53afaa4cead5f89bc75950') in 0.012533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 231.561798 seconds.
-  path: Assets/Assets_Angel/Sand/Dunes2.fbx
-  artifactKey: Guid(6c768f8ad2d30a642ba5618b7ed39ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Sand/Dunes2.fbx using Guid(6c768f8ad2d30a642ba5618b7ed39ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e99020aedb53959e04963ecee14021b') in 0.057531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.860546 seconds.
-  path: Assets/Assets_Angel/Textures/Sand/Materials
-  artifactKey: Guid(56568e4fc2cea6f469a33c374e521a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand/Materials using Guid(56568e4fc2cea6f469a33c374e521a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070ecec3150eccefc3bb86aa4c83c675') in 0.002332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 461.264623 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2
-  artifactKey: Guid(b929da08fee78334eaba051003279d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2 using Guid(b929da08fee78334eaba051003279d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502a7a54279316df682932311c363282') in 0.006871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061264 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Albedo.png
-  artifactKey: Guid(d3677c6b9cf7e374bbda1b7333c79f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Albedo.png using Guid(d3677c6b9cf7e374bbda1b7333c79f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bf9c2694e7d4196d3006b33f3fe5b5') in 0.014543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Metallic.png
-  artifactKey: Guid(a7f9311d5fba3bb4eb38150f11f75949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Metallic.png using Guid(a7f9311d5fba3bb4eb38150f11f75949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3966f338d7ff57028c50a72ebee51bdc') in 0.012577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_AO.png
-  artifactKey: Guid(21770c22ac05bcc4ba3b018b202ce70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_AO.png using Guid(21770c22ac05bcc4ba3b018b202ce70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7782266a4b73efa6218c35aa79bb5a01') in 0.012687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Normal.png
-  artifactKey: Guid(aa9a6929813d5d8468ad99e81bb03fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Normal.png using Guid(aa9a6929813d5d8468ad99e81bb03fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90836aeb9d83ddc5c89d6235f6f521c9') in 0.012129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Height.png
-  artifactKey: Guid(00c5dcc7a1f0b2740afdd56ab764b335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Height.png using Guid(00c5dcc7a1f0b2740afdd56ab764b335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db8eaaa87cbbeb59a3cc65bec76fbb0') in 0.013280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.030177 seconds.
-  path: Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Normal.png
-  artifactKey: Guid(aa9a6929813d5d8468ad99e81bb03fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Angel/Textures/Sand2/Dunes2_DefaultMaterial_Normal.png using Guid(aa9a6929813d5d8468ad99e81bb03fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2515333f9ef7350a6bbdf183be193c4f') in 0.010388 seconds 
+  Time since last request: 7.073870 seconds.
+  path: Assets/Assets_Xavi/mid ajustado.fbx
+  artifactKey: Guid(28bf061bb901af348a495de8280770ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/mid ajustado.fbx using Guid(28bf061bb901af348a495de8280770ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96da520ad11b02cbda34b26e2ef86b8b') in 0.333753 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
