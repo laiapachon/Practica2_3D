@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 24521 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16305 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-X:\Juegos Unity\2020.3.30f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
+C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55162
-Successfully changed project path to: X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
-X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
+49499
+Successfully changed project path to: C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
+C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path X:/Juegos Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -32,92 +32,120 @@ Direct3D:
     VRAM:     4018 MB
     Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: X:/Juegos Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002757 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002034 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.519 seconds
+- Completed reload, in  0.514 seconds
 Domain Reload Profiling:
-	ReloadAssembly (519ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (514ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (386ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (145ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (148ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003497 seconds.
+Registered in 0.002982 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F1FF8D0400 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FB84D7B0 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF431010 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF8D0400 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FBB99F70 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF5F8020 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF460A30 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF3B0010 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FB3BD030 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF460A30 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF8D0400 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF7F3020 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF8D0400 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F1FF3D8620 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
+- Completed reload, in  0.938 seconds
 Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
+System memory in use before: 69.4 MB.
 System memory in use after: 69.4 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 2.182600 ms (FindLiveObjects: 0.105100 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.993400 ms  DeleteObjects: 0.045200 ms)
+Total: 2.907900 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.031900 ms MarkObjects: 2.637400 ms  DeleteObjects: 0.066200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,91 +154,396 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets_Xavi/mid
-  artifactKey: Guid(008c940bb9aa13348b342f3bb1a56887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid using Guid(008c940bb9aa13348b342f3bb1a56887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff40ef2a0d53e3ba1955c18f424c8774') in 0.006911 seconds 
+  path: Assets/Assets_Xavi/Mid.unity
+  artifactKey: Guid(28860ea2445fa684ab12108c6740106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/Mid.unity using Guid(28860ea2445fa684ab12108c6740106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4edeac56e02ca46656d7652c957e097') in 0.014537 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.428105 seconds.
-  path: Assets/Assets_Xavi/pilars
-  artifactKey: Guid(97b933883510b2a49975285def8b56ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars using Guid(97b933883510b2a49975285def8b56ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ec9de02024a9e13ac3abaeab0b8683') in 0.006777 seconds 
+  Time since last request: 21.491922 seconds.
+  path: Assets/Marina_Escenario
+  artifactKey: Guid(1581e3a8837a8bd4f9aebdd5d99ca3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario using Guid(1581e3a8837a8bd4f9aebdd5d99ca3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68539f033c559d769847072782e3bfcb') in 0.003493 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.971196 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars uvs.fbx
-  artifactKey: Guid(59de3a9db65f7444ea72db64b5b36279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars uvs.fbx using Guid(59de3a9db65f7444ea72db64b5b36279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad1e8b36bf505a4bb504bb43bbc1b93') in 0.222444 seconds 
+  Time since last request: 0.368653 seconds.
+  path: Assets/Marina_Escenario/AlmacenDefinitivo2.fbx
+  artifactKey: Guid(5fcd21047f83f6943b5586e0ec6571f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AlmacenDefinitivo2.fbx using Guid(5fcd21047f83f6943b5586e0ec6571f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9641d41e94a76b9557ff11ba8ddf2426') in 0.094818 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.981416 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_BaseMap.png
-  artifactKey: Guid(0d2a7bbfa7333bf458239e167ab506c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_BaseMap.png using Guid(0d2a7bbfa7333bf458239e167ab506c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de08b27b1fc813400fdd5a2da5b83ab2') in 0.046794 seconds 
+  Time since last request: 0.000128 seconds.
+  path: Assets/Marina_Escenario/Escenario_Marinat.fbx
+  artifactKey: Guid(9d022f7a997a5b243a0e9e4bf2b41232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/Escenario_Marinat.fbx using Guid(9d022f7a997a5b243a0e9e4bf2b41232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae476fdf13562c43961a05e7b57d1c00') in 0.064146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_Normal.png
-  artifactKey: Guid(46901266d29624b4aba11a58209729c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_Normal.png using Guid(46901266d29624b4aba11a58209729c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cc03d5436333e83b58243b6cf84c50') in 0.011249 seconds 
+  Time since last request: 0.000153 seconds.
+  path: Assets/Marina_Escenario/LuzAlmacen.fbx
+  artifactKey: Guid(1b65633936cf9e24fb346926bc32a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/LuzAlmacen.fbx using Guid(1b65633936cf9e24fb346926bc32a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ed6e624ec81227f8de4b6e95b8827') in 0.027617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Marina_Escenario/almacenEscenarioDef.fbx
+  artifactKey: Guid(d5f8766237c01fe4a94d9f6fbd02698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacenEscenarioDef.fbx using Guid(d5f8766237c01fe4a94d9f6fbd02698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f38ae830148e745867a787096a9fb67') in 0.013452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.706129 seconds.
+  path: Assets/Marina_Escenario/almacen/AlmacenM.mat
+  artifactKey: Guid(fd1963a3154b0654d92448562b8c7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/AlmacenM.mat using Guid(fd1963a3154b0654d92448562b8c7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b9d4ad0bd8820a2b67704cf591b733') in 0.029699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Metallic.png
+  artifactKey: Guid(78369b4bb2db103419f9538d3193ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Metallic.png using Guid(78369b4bb2db103419f9538d3193ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761fcbc7f9ee0c0e41d9af0b0dbf8d08') in 0.027350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Opacity.png
+  artifactKey: Guid(119e9205d9ba72f43b286e6a2208ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Opacity.png using Guid(119e9205d9ba72f43b286e6a2208ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac37d578fe23939ee5b2414fb54b909') in 0.025197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(6b9b4f4444c74a349ade6552b8313b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal_OpenGL.png using Guid(6b9b4f4444c74a349ade6552b8313b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ea729ab3f42bbfecf48e3a24d56d04') in 0.009712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Roughness.png
+  artifactKey: Guid(4304dbfdbcbc1b04a943cd477c975cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Roughness.png using Guid(4304dbfdbcbc1b04a943cd477c975cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c70a0fe49ff5216eeba11bda1261d6') in 0.009505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Marina_Escenario/almacen
+  artifactKey: Guid(9ab5e242941a58146b23d30507b54baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen using Guid(9ab5e242941a58146b23d30507b54baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d911815e8f6e93d1fea1a2eb7557e') in 0.005300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png
+  artifactKey: Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png using Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f81ebcc5be6ba1bd4c6ded9aa4a1ae0') in 0.007702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Height.png
+  artifactKey: Guid(e77246e1e7ee1dc4f9e2227fe028596a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Height.png using Guid(e77246e1e7ee1dc4f9e2227fe028596a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47ca5e10180e79a7e92e5ca2798abf0') in 0.009412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Base_color.png
+  artifactKey: Guid(11751f1fe7da72d4fbe1a82387bba08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Base_color.png using Guid(11751f1fe7da72d4fbe1a82387bba08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c307b261c071706ee7a097f041e3e280') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.027496 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Base_color 1.png
+  artifactKey: Guid(7e0bc74c2c4ce5244a715452b311d0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Base_color 1.png using Guid(7e0bc74c2c4ce5244a715452b311d0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5301790d490a14f0e96209ed696f80') in 0.008432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret
+  artifactKey: Guid(d1abf13a8772a004a9e733401322fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret using Guid(d1abf13a8772a004a9e733401322fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce755aba21343d2f5fb69f35fc4f17f') in 0.001878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Roughness 1.png
+  artifactKey: Guid(1dc6a6900eb9fff4faf98001f4349b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Roughness 1.png using Guid(1dc6a6900eb9fff4faf98001f4349b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25086f5d7afe2c81070f5290ca2b7d5f') in 0.010889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/ParetM.mat
+  artifactKey: Guid(eedeeb2ee28e4784a85827d8d449bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/ParetM.mat using Guid(eedeeb2ee28e4784a85827d8d449bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149082124774d31a10560a16a638feb4') in 0.016459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal 1.png
+  artifactKey: Guid(8c0b1415a764ec647b83e6867ae0d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal 1.png using Guid(8c0b1415a764ec647b83e6867ae0d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5c137f07eb3e198d358e51e2715671') in 0.008831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal_OpenGL 1.png
+  artifactKey: Guid(2fee6bab045182f4f8068576263613ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal_OpenGL 1.png using Guid(2fee6bab045182f4f8068576263613ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2b9e69b373194856385f2c1ba6bae') in 0.008679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Height 1.png
+  artifactKey: Guid(614ad0f1346bdda4895635421f90ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Height 1.png using Guid(614ad0f1346bdda4895635421f90ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e34b0b7a27d6ac564f3b0866257e9b') in 0.008829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Metallic 1.png
+  artifactKey: Guid(95a988061b806814ca690fb8ceef4869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Metallic 1.png using Guid(95a988061b806814ca690fb8ceef4869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd026c9e27a1ae8e6200ef49528895caa') in 0.009351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.339078 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina
+  artifactKey: Guid(a3eca616b69db1f458a2ab47f4c637aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina using Guid(a3eca616b69db1f458a2ab47f4c637aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb3a4e888c20d947ed41e240ae2e01c') in 0.002108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003764 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla.fbx
+  artifactKey: Guid(a9a4e8099d735a14698eff1a7c18df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla.fbx using Guid(a9a4e8099d735a14698eff1a7c18df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c6e21ac9a5120d3c9ecc2e56833ed3') in 0.013933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/CajaDefinitiva.fbx
+  artifactKey: Guid(23403d93ba35caa49a2b078dfdc60ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/CajaDefinitiva.fbx using Guid(23403d93ba35caa49a2b078dfdc60ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12093be1a3b1ae7a6eee55328c96f4b1') in 0.016626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/EstanteriaDefinitiva.fbx
+  artifactKey: Guid(27d98fbb73f4c864baac49195643cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/EstanteriaDefinitiva.fbx using Guid(27d98fbb73f4c864baac49195643cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cd8ffbf8969af591c6e81459b6ead8') in 0.015191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/ContenedorDefinitivo.blend
+  artifactKey: Guid(735ece0b00524024fac133a9f40423da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/ContenedorDefinitivo.blend using Guid(735ece0b00524024fac133a9f40423da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b7ca1147bee596292d45d52256a5e') in 0.015246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.305978 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/ContenedorMat.mat
+  artifactKey: Guid(91ae86bc05fb8f04e9108aa9c9ea52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/ContenedorMat.mat using Guid(91ae86bc05fb8f04e9108aa9c9ea52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8758dbdfbce1544350283783687b48d7') in 0.016063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Base_color.png
+  artifactKey: Guid(2ea15ec02e48bde4299866a3ea28c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Base_color.png using Guid(2ea15ec02e48bde4299866a3ea28c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9534425d9367258843c49d0282c8a9') in 0.010077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor
+  artifactKey: Guid(f88314b97a551004eb3f614892a17844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor using Guid(f88314b97a551004eb3f614892a17844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6818d9b4233208a45f7ef0cf8d5d6') in 0.002572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(6c8a3b0a3cce0884081b8522004c7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Normal_OpenGL.png using Guid(6c8a3b0a3cce0884081b8522004c7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70a59644ae93867920601072e16de1b') in 0.008325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Metallic.png
+  artifactKey: Guid(0d950a013df33164d809509f66f533e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Metallic.png using Guid(0d950a013df33164d809509f66f533e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae4792a3098c73900b5db82bb44a603') in 0.008641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Roughness.png
+  artifactKey: Guid(3dbfad82bb67f2a48868c45848806ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Roughness.png using Guid(3dbfad82bb67f2a48868c45848806ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb7a75e58230997bc8fc45c128312ff') in 0.009151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Height.png
+  artifactKey: Guid(7afa4b8568865854aac0d56e126b992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Height.png using Guid(7afa4b8568865854aac0d56e126b992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ae8ab78a2c8b44b3fb55c2b2bea30b') in 0.008077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Normal.png
+  artifactKey: Guid(2d596bef3d38b334d8316047eb191ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/contenedor/DefaultMaterial_Normal.png using Guid(2d596bef3d38b334d8316047eb191ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d38367177560c7543652898f388b6d') in 0.006214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.167273 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/CajaRadianitaM.mat
+  artifactKey: Guid(2b1d94fa33ec72443a809e78b37f8a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/CajaRadianitaM.mat using Guid(2b1d94fa33ec72443a809e78b37f8a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6003fa45dac0603149297f6ad3a904') in 0.016126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja
+  artifactKey: Guid(772b6c1fd986e39429a4b7a243d918cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja using Guid(772b6c1fd986e39429a4b7a243d918cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff769b0434a065c67cb4603329d21856') in 0.001761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Height 1.png
+  artifactKey: Guid(9bad33405073571478d139ec17884b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Height 1.png using Guid(9bad33405073571478d139ec17884b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb19d614f3d356403cb808d686d89655') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Normal_OpenGL 1.png
+  artifactKey: Guid(979ad18c3d56d8f49b809fa06af06b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Normal_OpenGL 1.png using Guid(979ad18c3d56d8f49b809fa06af06b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f059df74e485c1586cc0921bace66d77') in 0.020144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Base_color 1.png
+  artifactKey: Guid(e61d5d76b1d6e374ebde2b5471bef4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Base_color 1.png using Guid(e61d5d76b1d6e374ebde2b5471bef4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ce56df02e9d3f23325411a54132ddb') in 0.011566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Roughness 1.png
+  artifactKey: Guid(8356250cdc0962d4895fd128f8f7ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Roughness 1.png using Guid(8356250cdc0962d4895fd128f8f7ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf04f504642c8b2372f9f40efdd59275') in 0.010575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Metallic 1.png
+  artifactKey: Guid(478f2fa7716f00f45968dc77da012ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Metallic 1.png using Guid(478f2fa7716f00f45968dc77da012ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ed45a7803d90cb6929d6a6e8803582') in 0.008989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Emissive 1.png
+  artifactKey: Guid(350e35badd44b804c94045bce04ca76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Emissive 1.png using Guid(350e35badd44b804c94045bce04ca76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4a06cdb6bea25c8970878d81c5382b') in 0.005760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Caja/Material_Normal 1.png
+  artifactKey: Guid(2c5ecf8e29d42684f8130a9c9d273c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Caja/Material_Normal 1.png using Guid(2c5ecf8e29d42684f8130a9c9d273c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7fedc21b8ef07ba3c5da3c1d83e817') in 0.010222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.330166 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/BarandillaM.mat
+  artifactKey: Guid(a72070f615ab0144e8d2bf4af8aefe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/BarandillaM.mat using Guid(a72070f615ab0144e8d2bf4af8aefe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b420426c96f0d8990b368ff5c3eb7a') in 0.014838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Height.png
+  artifactKey: Guid(783fc07df33a17c49b37ba7faa10f38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Height.png using Guid(783fc07df33a17c49b37ba7faa10f38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156757b21607c68afd97b06d719c00c9') in 0.005789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla
+  artifactKey: Guid(028cc8fc6a763c14b9f3471aaf291e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla using Guid(028cc8fc6a763c14b9f3471aaf291e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9adfa7b74b65ef48f441bd1c11513ce') in 0.002314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(156ad8b01a3f3b34a9b0bcf3d5116c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Normal_OpenGL.png using Guid(156ad8b01a3f3b34a9b0bcf3d5116c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32aed074a39efe2c8989e559fe4b523') in 0.009819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Roughness.png
+  artifactKey: Guid(5ff07f809b7c57643856909134a8db89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Roughness.png using Guid(5ff07f809b7c57643856909134a8db89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5138df04ee21ecad4dd720abb7061e49') in 0.009070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Normal.png
+  artifactKey: Guid(92202e26fc3b366439372d680773c650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Normal.png using Guid(92202e26fc3b366439372d680773c650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac03b031af0dc8cc87de80f31c47cc4') in 0.011679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Base_color.png
+  artifactKey: Guid(b67fa419732030f49a60506e0a2ed2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Base_color.png using Guid(b67fa419732030f49a60506e0a2ed2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5867b1e66bedcc0c9a4234625c148bfb') in 0.011173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Metallic.png
+  artifactKey: Guid(ad4e422cbe7df434fbe08b717325cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla/DefaultMaterial_Metallic.png using Guid(ad4e422cbe7df434fbe08b717325cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aac7b78e90f8e2bde84fcdaab222761') in 0.100334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.761789 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Base_Color.png
+  artifactKey: Guid(694fc7b2ac3b535499b0a05c2ee7a551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Base_Color.png using Guid(694fc7b2ac3b535499b0a05c2ee7a551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064176bd5615228b25b52e54eac14fac') in 0.009963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Roughness.png
+  artifactKey: Guid(54afee0ac8004fe429d361bb49936ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Roughness.png using Guid(54afee0ac8004fe429d361bb49936ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510a615b38e3a3f338239044875d9c84') in 0.007446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(92be8405d2b32dc4997491e8fea0288b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Normal_OpenGL.png using Guid(92be8405d2b32dc4997491e8fea0288b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff8db887848af572d084594d90dda8a') in 0.009848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Height.png
+  artifactKey: Guid(bc83775ab1b3fae4b84f1c33adfa6596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Height.png using Guid(bc83775ab1b3fae4b84f1c33adfa6596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111a32b6505bf84a070f56f3f2508276') in 0.006307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria
+  artifactKey: Guid(45b94a31b5c916d4c86c9113a1922290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria using Guid(45b94a31b5c916d4c86c9113a1922290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a6d0abda91cf02f2102ec853aaa36') in 0.002153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Normal.png
+  artifactKey: Guid(1dea1c65211b0c54b9b0bc79105fe334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Normal.png using Guid(1dea1c65211b0c54b9b0bc79105fe334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff886b4503a6a6ed4ea053cb0369c94c') in 0.009854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/EstanteriaM.mat
+  artifactKey: Guid(ba032900da11c8a418c357a0c4b576c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/EstanteriaM.mat using Guid(ba032900da11c8a418c357a0c4b576c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfa9ee3e2e5b884a02a6966fd8c2267') in 0.024168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Metallic.png
+  artifactKey: Guid(4f22b53c5abbe5f42980f89f154abcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AssetsMarina/estanteria/DefaultMaterial_Metallic.png using Guid(4f22b53c5abbe5f42980f89f154abcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aeef9a35cc40e9c27f98d8415957f7d') in 0.006453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 591.255796 seconds.
+  path: Assets/Assets_Angel
+  artifactKey: Guid(e04be3c3d2ac32443b875e1af68a8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Angel using Guid(e04be3c3d2ac32443b875e1af68a8abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c22aad8d12515d8b611c855fd53eca') in 0.006254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.924985 seconds.
+  path: Assets/Assets_Angel/Sand
+  artifactKey: Guid(a44ebcef284d94a47ae058f1c34eedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Angel/Sand using Guid(a44ebcef284d94a47ae058f1c34eedd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478bc1f54a7edcfd742960904c8d3d66') in 0.005529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005039 seconds.
+  path: Assets/Assets_Angel/Sand/Dunes.fbx
+  artifactKey: Guid(aa1f1aa9a465deb439b4bcfe240d5157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Angel/Sand/Dunes.fbx using Guid(aa1f1aa9a465deb439b4bcfe240d5157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5d5e4c345f8018cc3c8420acd11bdc') in 0.105316 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000170 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_MaskMap.png
-  artifactKey: Guid(17ce6b2a544f6254faf423578f7f835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_MaskMap.png using Guid(17ce6b2a544f6254faf423578f7f835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a800f6e06b9729fa5c08e88017d132fb') in 0.021084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.636498 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars_mat.mat
-  artifactKey: Guid(0fc87e0153e04c944bf5d21869eb4c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars_mat.mat using Guid(0fc87e0153e04c944bf5d21869eb4c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13861ead7853904fce9172d4c002dcb') in 0.028829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.250706 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_Normal.png
-  artifactKey: Guid(46901266d29624b4aba11a58209729c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars_DefaultMaterial_Normal.png using Guid(46901266d29624b4aba11a58209729c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7a7274138623e523a248deb5865945') in 0.020564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 147.886601 seconds.
-  path: Assets/Assets_Xavi/pilars/pilars_mat.mat
-  artifactKey: Guid(0fc87e0153e04c944bf5d21869eb4c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/pilars/pilars_mat.mat using Guid(0fc87e0153e04c944bf5d21869eb4c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be94257cc8f7f38a59cf88fd7a8c2c69') in 0.030355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 332.976751 seconds.
-  path: Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_BaseMap 1.png
-  artifactKey: Guid(99b1826c8ed798d409f949af43bed74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_BaseMap 1.png using Guid(99b1826c8ed798d409f949af43bed74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f62268494ba7d3ebb685cce8841a48') in 0.014495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_MaskMap 1.png
-  artifactKey: Guid(3e836bf0447cf1c4299000aebc37ef76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_MaskMap 1.png using Guid(3e836bf0447cf1c4299000aebc37ef76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a52a9bb260470acfc8ccb5afe30dcf') in 0.022489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_Normal 1.png
-  artifactKey: Guid(d50132cb1297f6e45a64591d71786b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_Normal 1.png using Guid(d50132cb1297f6e45a64591d71786b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd2825a30e50d5b214542bd9ec6aaaf') in 0.011088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.632004 seconds.
-  path: Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_Normal 1.png
-  artifactKey: Guid(d50132cb1297f6e45a64591d71786b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid/mid uvs_DefaultMaterial_Normal 1.png using Guid(d50132cb1297f6e45a64591d71786b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e9d2c8836182cc4d9ccc0058a72ae9') in 0.012145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.732796 seconds.
-  path: Assets/Assets_Xavi/mid/mid_mat.mat
-  artifactKey: Guid(7022efc78b822254fb99123148963fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid/mid_mat.mat using Guid(7022efc78b822254fb99123148963fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd30906d53276a6269a7557dd9ce79f') in 0.024477 seconds 
+  path: Assets/Assets_Angel/Sand/Dunes2.fbx
+  artifactKey: Guid(6c768f8ad2d30a642ba5618b7ed39ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Angel/Sand/Dunes2.fbx using Guid(6c768f8ad2d30a642ba5618b7ed39ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a942a0d292eb415107a8f1e0aab1ac') in 0.088236 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
