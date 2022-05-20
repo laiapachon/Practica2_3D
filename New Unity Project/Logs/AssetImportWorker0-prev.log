@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 24521 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16305 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-X:\Juegos Unity\2020.3.30f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
+C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53549
-Successfully changed project path to: X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
-X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project
+62604
+Successfully changed project path to: C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
+C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path X:/Juegos Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path X:/Users/xavie/Documents/GitHub/Practica2_3D/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -32,40 +32,40 @@ Direct3D:
     VRAM:     4018 MB
     Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'X:/Juegos Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: X:/Juegos Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002835 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001888 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.502 seconds
+- Completed reload, in  0.498 seconds
 Domain Reload Profiling:
-	ReloadAssembly (502ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (498ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (368ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (124ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (134ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (67ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (69ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,79 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003357 seconds.
+Registered in 0.002982 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C27AA50010 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27AA1D020 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27AC6C020 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27A223230 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27A223230 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27B130080 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27AC81230 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27B130080 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27AC81230 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27AC81230 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C279DF9CA0 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27A4B8020 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27AA37CD0 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C27B158690 doesn't match image C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
+- Completed reload, in  0.844 seconds
 Domain Reload Profiling:
-	ReloadAssembly (858ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (845ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (256ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.8 MB.
 System memory in use after: 68.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 2.143000 ms (FindLiveObjects: 0.112100 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.946000 ms  DeleteObjects: 0.047600 ms)
+Total: 2.528000 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.032600 ms MarkObjects: 2.320200 ms  DeleteObjects: 0.049200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,25 +154,270 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets_Xavi/Mid.unity
-  artifactKey: Guid(28860ea2445fa684ab12108c6740106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/Mid.unity using Guid(28860ea2445fa684ab12108c6740106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589657b6582b389513ec82ba6d10b69b') in 0.014391 seconds 
+  path: Assets/Marina_Escenario/Escenario_Marina.unity
+  artifactKey: Guid(3723d5087b633194c8592e5226677aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/Escenario_Marina.unity using Guid(3723d5087b633194c8592e5226677aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30ed9f2d3b29f7da12e5b106233e714') in 0.015471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.307789 seconds.
-  path: Assets/Assets_Xavi/mid remake con pasillos.fbx
-  artifactKey: Guid(ea48e33543bc6c34c9e70ff54a5de58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid remake con pasillos.fbx using Guid(ea48e33543bc6c34c9e70ff54a5de58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0071cf56f9c464e8f129b12cea103f0') in 0.342891 seconds 
+  Time since last request: 0.000161 seconds.
+  path: Assets/Marina_Escenario/Escenario_Marinat.fbx
+  artifactKey: Guid(9d022f7a997a5b243a0e9e4bf2b41232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/Escenario_Marinat.fbx using Guid(9d022f7a997a5b243a0e9e4bf2b41232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae476fdf13562c43961a05e7b57d1c00') in 0.165301 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 319.365818 seconds.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Marina_Escenario
+  artifactKey: Guid(1581e3a8837a8bd4f9aebdd5d99ca3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario using Guid(1581e3a8837a8bd4f9aebdd5d99ca3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68539f033c559d769847072782e3bfcb') in 0.005857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.915925 seconds.
+  path: Assets/Marina_Escenario/AlmacenDefinitivo2.fbx
+  artifactKey: Guid(5fcd21047f83f6943b5586e0ec6571f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/AlmacenDefinitivo2.fbx using Guid(5fcd21047f83f6943b5586e0ec6571f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f32b623b6363d202bddf5d60d672eb') in 0.013001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.037267 seconds.
+  path: Assets/Assets_Xavi/estanteria uvs.fbx
+  artifactKey: Guid(ffcaa3400757e2f4387f8d71c7282455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/estanteria uvs.fbx using Guid(ffcaa3400757e2f4387f8d71c7282455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fc1b98b6fe8a9b77e6bad746deba6a') in 0.303599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assets_Xavi/luz uvs apagadas.fbx
+  artifactKey: Guid(d0600ab2f91572648ace74b1a7c4227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/luz uvs apagadas.fbx using Guid(d0600ab2f91572648ace74b1a7c4227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee73ca15001ddcda989d3ddc7f0ffaaa') in 0.013506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
   path: Assets/Assets_Xavi/mid remake con pasillo y techo.fbx
   artifactKey: Guid(3dff958affbc92649be01fcc45da0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Xavi/mid remake con pasillo y techo.fbx using Guid(3dff958affbc92649be01fcc45da0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3c7dbcfd31b1502745440837f7f924') in 0.258188 seconds 
+Start importing Assets/Assets_Xavi/mid remake con pasillo y techo.fbx using Guid(3dff958affbc92649be01fcc45da0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6004b3ee05559dc32c4a1eb9093b8c') in 0.260175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Assets_Xavi/globo uvs.fbx
+  artifactKey: Guid(252ec0b90d23ec5448d1858464980075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/globo uvs.fbx using Guid(252ec0b90d23ec5448d1858464980075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c20ee3546c674feec6b30d37c3db1') in 0.083566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Assets_Xavi/luz uvs encendidas.fbx
+  artifactKey: Guid(88b31543a0fbc2e48b875f3b45610b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/luz uvs encendidas.fbx using Guid(88b31543a0fbc2e48b875f3b45610b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3b16c226287d8b61b36545bf529e7e') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets_Xavi/telescope uvs.fbx
+  artifactKey: Guid(d350ba91ef845f24ea8788cf1f7922ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Xavi/telescope uvs.fbx using Guid(d350ba91ef845f24ea8788cf1f7922ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad50e728434e7bb4df1c2196e9c8f458') in 0.070746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 262.469014 seconds.
+  path: Assets/Marina_Escenario/almacen
+  artifactKey: Guid(9ab5e242941a58146b23d30507b54baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen using Guid(9ab5e242941a58146b23d30507b54baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d911815e8f6e93d1fea1a2eb7557e') in 0.006084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.934353 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Base_color.png
+  artifactKey: Guid(11751f1fe7da72d4fbe1a82387bba08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Base_color.png using Guid(11751f1fe7da72d4fbe1a82387bba08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946f803b9bf39b8ddd2abebf0cb23845') in 0.018181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Metallic.png
+  artifactKey: Guid(78369b4bb2db103419f9538d3193ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Metallic.png using Guid(78369b4bb2db103419f9538d3193ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761fcbc7f9ee0c0e41d9af0b0dbf8d08') in 0.009693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Opacity.png
+  artifactKey: Guid(119e9205d9ba72f43b286e6a2208ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Opacity.png using Guid(119e9205d9ba72f43b286e6a2208ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a548be41c4fc2a936f101ebf5c019') in 0.009585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(6b9b4f4444c74a349ade6552b8313b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal_OpenGL.png using Guid(6b9b4f4444c74a349ade6552b8313b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69271e80c49481a337568588c5a0a10d') in 0.010011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Roughness.png
+  artifactKey: Guid(4304dbfdbcbc1b04a943cd477c975cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Roughness.png using Guid(4304dbfdbcbc1b04a943cd477c975cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514d3143be14cc897750e7231d3fcca7') in 0.009788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png
+  artifactKey: Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png using Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612dc5c7dfabb9e922f3abef29268ea2') in 0.010005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Height.png
+  artifactKey: Guid(e77246e1e7ee1dc4f9e2227fe028596a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Height.png using Guid(e77246e1e7ee1dc4f9e2227fe028596a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2350f317d226e92c69618d485e96e7a3') in 0.008489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.455734 seconds.
+  path: Assets/Marina_Escenario/almacen/AlmacenM.mat
+  artifactKey: Guid(fd1963a3154b0654d92448562b8c7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/AlmacenM.mat using Guid(fd1963a3154b0654d92448562b8c7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a64485b1d226865f878102fadbab1f') in 0.025660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.037558 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png
+  artifactKey: Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png using Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0d98fde8969280de8abf4fa07bd1ad') in 0.011212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 391.579819 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret
+  artifactKey: Guid(d1abf13a8772a004a9e733401322fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret using Guid(d1abf13a8772a004a9e733401322fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce755aba21343d2f5fb69f35fc4f17f') in 0.006012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.451114 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Height.png
+  artifactKey: Guid(198d4b24bdea09b41a8a5c9d718bf3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Height.png using Guid(198d4b24bdea09b41a8a5c9d718bf3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2a854feef4ccba80fd825d3255a3e3') in 0.009718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Metallic.png
+  artifactKey: Guid(45b879967ff29c84cb9978eac0c9d2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Metallic.png using Guid(45b879967ff29c84cb9978eac0c9d2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7e44298e2b88ea759809744090df9') in 0.007991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Roughness.png
+  artifactKey: Guid(090ba8c6967467344861ee119b8eaf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Roughness.png using Guid(090ba8c6967467344861ee119b8eaf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aae9e2ac5f9fc6947ca3cee2aa4bf8') in 0.012843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal.png
+  artifactKey: Guid(d5c595baf936b874fb694f7513fe74a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal.png using Guid(d5c595baf936b874fb694f7513fe74a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02398b78fc8aa59deaccf801ae29a887') in 0.010084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal_OpenGL.png
+  artifactKey: Guid(e6e1c65b464d8604d8e54bbf00b0538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal_OpenGL.png using Guid(e6e1c65b464d8604d8e54bbf00b0538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ede5195b98872383d132614dead6b0') in 0.008409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.858158 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Base_color.png
+  artifactKey: Guid(9979af70159d59648b7a30c3d915bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Base_color.png using Guid(9979af70159d59648b7a30c3d915bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100199580706695ea57207591917fcfa') in 0.011040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.608831 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/ParetM.mat
+  artifactKey: Guid(eedeeb2ee28e4784a85827d8d449bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/ParetM.mat using Guid(eedeeb2ee28e4784a85827d8d449bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358a513968428c8119c49a5e77f9e22b') in 0.009628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.203350 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal.png
+  artifactKey: Guid(d5c595baf936b874fb694f7513fe74a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal.png using Guid(d5c595baf936b874fb694f7513fe74a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a20c707e83d6a2d0c300f66b8804d1') in 0.008095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 567.110092 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Height 1.png
+  artifactKey: Guid(614ad0f1346bdda4895635421f90ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Height 1.png using Guid(614ad0f1346bdda4895635421f90ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e34b0b7a27d6ac564f3b0866257e9b') in 0.009507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Roughness 1.png
+  artifactKey: Guid(1dc6a6900eb9fff4faf98001f4349b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Roughness 1.png using Guid(1dc6a6900eb9fff4faf98001f4349b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25086f5d7afe2c81070f5290ca2b7d5f') in 0.010609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal 1.png
+  artifactKey: Guid(8c0b1415a764ec647b83e6867ae0d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal 1.png using Guid(8c0b1415a764ec647b83e6867ae0d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3a6a8231dc020cee8236389f130b1a') in 0.009324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal_OpenGL 1.png
+  artifactKey: Guid(2fee6bab045182f4f8068576263613ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal_OpenGL 1.png using Guid(2fee6bab045182f4f8068576263613ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2b9e69b373194856385f2c1ba6bae') in 0.008215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Metallic 1.png
+  artifactKey: Guid(95a988061b806814ca690fb8ceef4869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Metallic 1.png using Guid(95a988061b806814ca690fb8ceef4869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd026c9e27a1ae8e6200ef49528895caa') in 0.009468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.625897 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Base_color 1.png
+  artifactKey: Guid(7e0bc74c2c4ce5244a715452b311d0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Base_color 1.png using Guid(7e0bc74c2c4ce5244a715452b311d0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5301790d490a14f0e96209ed696f80') in 0.008790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.767482 seconds.
+  path: Assets/Marina_Escenario/almacen/textures pret/Material_Normal 1.png
+  artifactKey: Guid(8c0b1415a764ec647b83e6867ae0d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/textures pret/Material_Normal 1.png using Guid(8c0b1415a764ec647b83e6867ae0d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5c137f07eb3e198d358e51e2715671') in 0.008197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.258707 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Base_color.png
+  artifactKey: Guid(11751f1fe7da72d4fbe1a82387bba08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Base_color.png using Guid(11751f1fe7da72d4fbe1a82387bba08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c307b261c071706ee7a097f041e3e280') in 0.008473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Opacity.png
+  artifactKey: Guid(119e9205d9ba72f43b286e6a2208ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Opacity.png using Guid(119e9205d9ba72f43b286e6a2208ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac37d578fe23939ee5b2414fb54b909') in 0.008407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(6b9b4f4444c74a349ade6552b8313b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal_OpenGL.png using Guid(6b9b4f4444c74a349ade6552b8313b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ea729ab3f42bbfecf48e3a24d56d04') in 0.010566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Roughness.png
+  artifactKey: Guid(4304dbfdbcbc1b04a943cd477c975cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Roughness.png using Guid(4304dbfdbcbc1b04a943cd477c975cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c70a0fe49ff5216eeba11bda1261d6') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png
+  artifactKey: Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png using Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c8b5f0d70629c6609e30b1b878fa20') in 0.006678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Height.png
+  artifactKey: Guid(e77246e1e7ee1dc4f9e2227fe028596a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Height.png using Guid(e77246e1e7ee1dc4f9e2227fe028596a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47ca5e10180e79a7e92e5ca2798abf0') in 0.007749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.660172 seconds.
+  path: Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png
+  artifactKey: Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/DefaultMaterial_Normal.png using Guid(4cd7e0cef7669e24c94cd29b558b2d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f81ebcc5be6ba1bd4c6ded9aa4a1ae0') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.955064 seconds.
+  path: Assets/Marina_Escenario/almacen/AlmacenM.mat
+  artifactKey: Guid(fd1963a3154b0654d92448562b8c7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marina_Escenario/almacen/AlmacenM.mat using Guid(fd1963a3154b0654d92448562b8c7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b9d4ad0bd8820a2b67704cf591b733') in 0.033121 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
