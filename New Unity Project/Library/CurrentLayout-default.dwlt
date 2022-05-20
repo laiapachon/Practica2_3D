@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Marina_Escenario/AssetsMarina/LuzAlmacen
+    - Assets/Marina_Escenario
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 85
   m_LastFolders:
-  - Assets/Marina_Escenario/AssetsMarina/LuzAlmacen
+  - Assets/Marina_Escenario
   m_LastFoldersGridSize: 85
   m_LastProjectPath: C:\Users\marin\Documents\GitHub\Practica2_3D\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ac500000
-    m_LastClickedID: 20652
-    m_ExpandedIDs: 00000000184700001a4700001c4700002a4700003447000000ca9a3b
+    m_SelectedIDs: 763e0000
+    m_LastClickedID: 15990
+    m_ExpandedIDs: 00000000163e0000183e00001a3e0000763e00007a3e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000184700001a4700001c470000
+    m_ExpandedIDs: 00000000163e0000183e00001a3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 78bbffff74f4ffff66470000
+      m_ExpandedIDs: 12d0ffff70e1ffff72fbffff5a3d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -520.87744, y: 20.68127, z: -50.73834}
+    m_Target: {x: -520.17456, y: 36.654057, z: -23.667606}
     speed: 2
-    m_Value: {x: -520.87744, y: 20.68127, z: -50.73834}
+    m_Value: {x: -524.62585, y: 36.836655, z: -20.972912}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.015051982, y: 0.9825423, z: -0.16840896, w: 0.08447007}
+    m_Target: {x: 0.057313487, y: -0.9409846, z: 0.26835358, w: 0.20111746}
     speed: 2
-    m_Value: {x: 0.0147911245, y: 0.9821216, z: -0.16833772, w: 0.082950026}
+    m_Value: {x: 0.05647433, y: -0.9410199, z: 0.26836354, w: 0.19817486}
   m_Size:
-    m_Target: 120.15951
+    m_Target: 129.3109
     speed: 2
-    m_Value: 120.15951
+    m_Value: 123.74249
   m_Ortho:
     m_Target: 0
     speed: 2
