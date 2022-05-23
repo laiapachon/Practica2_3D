@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ParticleSystem.unity
+- path: Assets/Assets_Xavi/Mid.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
