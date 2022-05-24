@@ -15,11 +15,11 @@ C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65243
+59259
 Successfully changed project path to: C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 C:/Users/marin/Documents/GitHub/Practica2_3D/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.52 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001998 seconds.
+Registered in 0.001960 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.69 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
+- Completed reload, in  0.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (508ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (378ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (137ms)
+			SetupLoadedEditorAssemblies (143ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (31ms)
+				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadAttributes (72ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,10 +73,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003123 seconds.
+Registered in 0.003815 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Auto Package] : Checking if required packages are included
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -99,30 +99,30 @@ System.Reflection.MethodBase:Invoke (object,object[])
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.891 seconds
 Domain Reload Profiling:
-	ReloadAssembly (855ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (227ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -130,14 +130,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
+Unloading 1656 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 2.820000 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.033500 ms MarkObjects: 2.570100 ms  DeleteObjects: 0.057600 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 2.593400 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.035200 ms MarkObjects: 2.360900 ms  DeleteObjects: 0.053700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,109 +151,165 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Marina_Escenario/AlmacenDefinitivo2.fbx
-  artifactKey: Guid(5fcd21047f83f6943b5586e0ec6571f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AlmacenDefinitivo2.fbx using Guid(5fcd21047f83f6943b5586e0ec6571f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9641d41e94a76b9557ff11ba8ddf2426') in 0.127330 seconds 
+  path: Assets/rotate.cs
+  artifactKey: Guid(2e50e0141f7f2474c8bc4feb2a1a24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rotate.cs using Guid(2e50e0141f7f2474c8bc4feb2a1a24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98d492b57b6d05724e26bf9cb41e9e0') in 0.032857 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.6 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 2.552100 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.035200 ms MarkObjects: 2.365500 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/CajaDefinitiva.fbx
-  artifactKey: Guid(23403d93ba35caa49a2b078dfdc60ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/CajaDefinitiva.fbx using Guid(23403d93ba35caa49a2b078dfdc60ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12093be1a3b1ae7a6eee55328c96f4b1') in 0.031262 seconds 
+  Time since last request: 50.857661 seconds.
+  path: Assets/rotate.cs
+  artifactKey: Guid(2e50e0141f7f2474c8bc4feb2a1a24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rotate.cs using Guid(2e50e0141f7f2474c8bc4feb2a1a24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a120585d4b42c18969fa0c60e6a0d1') in 0.004296 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/EstanteriaDefinitiva.fbx
-  artifactKey: Guid(27d98fbb73f4c864baac49195643cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/EstanteriaDefinitiva.fbx using Guid(27d98fbb73f4c864baac49195643cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cd8ffbf8969af591c6e81459b6ead8') in 0.014999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Marina_Escenario/Escenario_Marinat.fbx
-  artifactKey: Guid(9d022f7a997a5b243a0e9e4bf2b41232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/Escenario_Marinat.fbx using Guid(9d022f7a997a5b243a0e9e4bf2b41232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae476fdf13562c43961a05e7b57d1c00') in 0.065257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Marina_Escenario
-  artifactKey: Guid(1581e3a8837a8bd4f9aebdd5d99ca3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario using Guid(1581e3a8837a8bd4f9aebdd5d99ca3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68539f033c559d769847072782e3bfcb') in 0.004884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina
-  artifactKey: Guid(a3eca616b69db1f458a2ab47f4c637aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina using Guid(a3eca616b69db1f458a2ab47f4c637aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb3a4e888c20d947ed41e240ae2e01c') in 0.005769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Marina_Escenario/LuzAlmacen.fbx
-  artifactKey: Guid(1b65633936cf9e24fb346926bc32a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/LuzAlmacen.fbx using Guid(1b65633936cf9e24fb346926bc32a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ed6e624ec81227f8de4b6e95b8827') in 0.019491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Marina_Escenario/almacenEscenarioDef.fbx
-  artifactKey: Guid(d5f8766237c01fe4a94d9f6fbd02698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/almacenEscenarioDef.fbx using Guid(d5f8766237c01fe4a94d9f6fbd02698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f38ae830148e745867a787096a9fb67') in 0.014501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/Barandilla.fbx
-  artifactKey: Guid(a9a4e8099d735a14698eff1a7c18df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/Barandilla.fbx using Guid(a9a4e8099d735a14698eff1a7c18df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c6e21ac9a5120d3c9ecc2e56833ed3') in 0.012467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/ContenedorDefinitivo.blend
-  artifactKey: Guid(735ece0b00524024fac133a9f40423da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/ContenedorDefinitivo.blend using Guid(735ece0b00524024fac133a9f40423da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b7ca1147bee596292d45d52256a5e') in 0.017451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.080638 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen
-  artifactKey: Guid(57e9996c13bcb024fbc9946afefd4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen using Guid(57e9996c13bcb024fbc9946afefd4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb4b9113767cfc5829bb76d26346f31') in 0.002070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008464 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_AlbedoTransparency.png
-  artifactKey: Guid(f761436f6540dc444a27d8a993ff19df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_AlbedoTransparency.png using Guid(f761436f6540dc444a27d8a993ff19df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6129f81c781dee9de3f3894d77c28e2c') in 0.018629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_Emission.png
-  artifactKey: Guid(996d46391c20fc6479178a9e8d5d0fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_Emission.png using Guid(996d46391c20fc6479178a9e8d5d0fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31104921d64e4997b70c819ac1a239a1') in 0.010192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacenM.mat
-  artifactKey: Guid(4b099fcc7e81686488bce5c25cb3cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacenM.mat using Guid(4b099fcc7e81686488bce5c25cb3cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82798ce1c780b8c081fb8327649d224') in 0.026422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_MetallicSmoothness.png
-  artifactKey: Guid(77cb826947da41f4cad0f20accb8e390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_MetallicSmoothness.png using Guid(77cb826947da41f4cad0f20accb8e390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321628a2d525fa7f6827b2a125d15857') in 0.011209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_Normal.png
-  artifactKey: Guid(541e1f24e1ccd834f9d8e96746a349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/LuzAlmacen_Material_Normal.png using Guid(541e1f24e1ccd834f9d8e96746a349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682987401d34242f9085a558f82429b2') in 0.012873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.588119 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/Materials
-  artifactKey: Guid(213434c7c88428042bb86b2dd72e0e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/Materials using Guid(213434c7c88428042bb86b2dd72e0e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07908a2351d31689e4cfc62a45de94ae') in 0.005126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005208 seconds.
-  path: Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/Materials/LuzAlmacen_Material_AlbedoTransparency.mat
-  artifactKey: Guid(e8fc50191582e9c4cbb0b511f247ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Marina_Escenario/AssetsMarina/LuzAlmacen/Materials/LuzAlmacen_Material_AlbedoTransparency.mat using Guid(e8fc50191582e9c4cbb0b511f247ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f080242df0b4de9fff42dd0604ea42') in 0.013041 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (823ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.6 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 2.519100 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.037000 ms MarkObjects: 2.287700 ms  DeleteObjects: 0.020800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
