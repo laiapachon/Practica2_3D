@@ -1,0 +1,352 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52826
+Successfully changed project path to: C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project
+C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003136 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.14 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2219.
+Total: 2.825800 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.042000 ms MarkObjects: 2.586900 ms  DeleteObjects: 0.061100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/extra assets comedor/lambert2_metallicRoughness@channels=B.png
+  artifactKey: Guid(1702ca1ff8656714eae9fefc5c578c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/lambert2_metallicRoughness@channels=B.png using Guid(1702ca1ff8656714eae9fefc5c578c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05518fbe7f6dcc1f75640c9ec2c91dcd') in 0.095620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/extra assets comedor/StreetCabin_Diffuse.png
+  artifactKey: Guid(9dab4d2c2629efa4eb3d0b12dd086bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/StreetCabin_Diffuse.png using Guid(9dab4d2c2629efa4eb3d0b12dd086bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1b5ca8866ac0a27274dfbee7c8129e') in 0.013753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/extra assets comedor/lambert2_normal.png
+  artifactKey: Guid(eb4fa51a10774ef458ed79427ac3d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/lambert2_normal.png using Guid(eb4fa51a10774ef458ed79427ac3d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa7329be9c47bda846272bb34a3d5a') in 0.036186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/extra assets comedor/MultiCabin_Diffuse.png
+  artifactKey: Guid(734d8c1752ed50a49acf5e5288fe96e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/MultiCabin_Diffuse.png using Guid(734d8c1752ed50a49acf5e5288fe96e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2c4a6712a75c8580e899d8425a62d') in 0.010812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/extra assets comedor/arcade 4.mat
+  artifactKey: Guid(91cb4a7cf598eab4587a8cfd48569347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade 4.mat using Guid(91cb4a7cf598eab4587a8cfd48569347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0a08f8b072b45300a5febdeda831a3') in 0.060609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/extra assets comedor/arcade1 1.mat
+  artifactKey: Guid(2eaeb5e8b207fc245b60a93f5715bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade1 1.mat using Guid(2eaeb5e8b207fc245b60a93f5715bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec04f512b34308fc9cf0155c005a2cd') in 0.018614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/extra assets comedor/arcade 7.mat
+  artifactKey: Guid(b7b95da8bb4a3b34f858225e18f19feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade 7.mat using Guid(b7b95da8bb4a3b34f858225e18f19feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159e8decdfabe032b7ed0a6a9ff73b23') in 0.013244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/extra assets comedor/BlenderCabine_Diffuse.png
+  artifactKey: Guid(7f2f2fdba69a948419d0a111b8d40270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/BlenderCabine_Diffuse.png using Guid(7f2f2fdba69a948419d0a111b8d40270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f9913c226c63076e1087da36bfcfa7') in 0.010561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/extra assets comedor/ArcadeMachineDirt_Diffuse.png
+  artifactKey: Guid(a31be4fc3be74db49aea6295820640ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/ArcadeMachineDirt_Diffuse.png using Guid(a31be4fc3be74db49aea6295820640ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df64ea57188dbce78bef19d2bd0ae08') in 0.013922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/extra assets comedor/Bottle_Material _2_BaseColor.png
+  artifactKey: Guid(929370c639e811c4f8ff45607e7936cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle_Material _2_BaseColor.png using Guid(929370c639e811c4f8ff45607e7936cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9850bc6e7c30296db9f21d20f2b7f1e') in 0.013999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/extra assets comedor/arcade 2.mat
+  artifactKey: Guid(e361756c3f9608245b7cc9261d53c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade 2.mat using Guid(e361756c3f9608245b7cc9261d53c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c081378501a1fa6fdee517669954217') in 0.013930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/extra assets comedor/Arcade cabins.obj
+  artifactKey: Guid(4f2453437efa44b4db3be9655d462fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Arcade cabins.obj using Guid(4f2453437efa44b4db3be9655d462fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fc554ceeed65db47bf4de84a14f42c') in 0.182764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/extra assets comedor/PacManCabin_Diffuse.png
+  artifactKey: Guid(2ea97b51dceed414b8581edbcabb85e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/PacManCabin_Diffuse.png using Guid(2ea97b51dceed414b8581edbcabb85e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e3014c7bf8a4c8df2bbbf8205aca9d') in 0.013224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/extra assets comedor/boteleh.mat
+  artifactKey: Guid(ea757365a7782aa43b6ff69b1edfdf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/boteleh.mat using Guid(ea757365a7782aa43b6ff69b1edfdf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baedb5581c89db6e7d79481ac945585') in 0.027805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/extra assets comedor/Bottle_Material _2_Roughness.png
+  artifactKey: Guid(1d40cb358edf75743bc6bad246464099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle_Material _2_Roughness.png using Guid(1d40cb358edf75743bc6bad246464099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099ca6f1f87a7c1fd687d60ca4f3e489') in 0.011751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/extra assets comedor/cervesiñas.mat
+  artifactKey: Guid(6508f07b93ea9c44a848c653816eca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/cervesiñas.mat using Guid(6508f07b93ea9c44a848c653816eca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c8cdc2ec43b438ddb12f4c7017fe17') in 0.023987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/extra assets comedor/lambert2_metallicRoughness@channels=G.png
+  artifactKey: Guid(bcbfc51312c96c641aa6900752ff7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/lambert2_metallicRoughness@channels=G.png using Guid(bcbfc51312c96c641aa6900752ff7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd75cdc6ba56000d5f99f71b9e9785d') in 0.012043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/extra assets comedor/arcade1.mat
+  artifactKey: Guid(d565150e31d854c4fa42cfce4e82217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade1.mat using Guid(d565150e31d854c4fa42cfce4e82217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b770e028c0c32a5cb696bfb819829f') in 0.015587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/extra assets comedor/DefenderCabin_Diffuse.png
+  artifactKey: Guid(db1302930914fa340ae7c3d64b41e336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/DefenderCabin_Diffuse.png using Guid(db1302930914fa340ae7c3d64b41e336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f471d049c823e00347f567790f3b10d8') in 0.013836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/extra assets comedor/GalaxianCabin_Diffuse.png
+  artifactKey: Guid(e97a686256b99eb4098f29b81244a5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/GalaxianCabin_Diffuse.png using Guid(e97a686256b99eb4098f29b81244a5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9d5b84599febd37415234b92c09e75') in 0.012243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/extra assets comedor/boite_duff.png
+  artifactKey: Guid(dd4efe56f7f269d478b8e182c803774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/boite_duff.png using Guid(dd4efe56f7f269d478b8e182c803774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b6989ddbed536ae9dc9388b119580e') in 0.012411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/extra assets comedor/Bottle_Material _2_Normal.png
+  artifactKey: Guid(3424a42d5fa88de4e85c3da72901a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle_Material _2_Normal.png using Guid(3424a42d5fa88de4e85c3da72901a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d46fbe82fda59bc275fadba48016985') in 0.013048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/extra assets comedor/Bottle_Material _2_Metallic.png
+  artifactKey: Guid(7fa16fe2f3e48a04db4c604a3b2fa725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle_Material _2_Metallic.png using Guid(7fa16fe2f3e48a04db4c604a3b2fa725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608c0c50719d59ba7e65913891a14c12') in 0.013269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/extra assets comedor/Bottle.fbx
+  artifactKey: Guid(8a075296dd0c77c4e90e474f57b1751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle.fbx using Guid(8a075296dd0c77c4e90e474f57b1751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfe58c246c87b637c97bf947b4c8155') in 0.024302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/extra assets comedor/arcade 3.mat
+  artifactKey: Guid(e4370fd9ddea7734d9648db876708861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade 3.mat using Guid(e4370fd9ddea7734d9648db876708861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a9a3a8e8fa5d0e03cd7b3d4dbe2a12') in 0.013346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/extra assets comedor/arcade 6.mat
+  artifactKey: Guid(0647f83e01479af47aa9e863efcf0618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade 6.mat using Guid(0647f83e01479af47aa9e863efcf0618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9025dbadb3a62333dd2a21eff0767b51') in 0.013300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/extra assets comedor/Bottle_Material _2_Opacity.png
+  artifactKey: Guid(c96877a92c1cf82448cbf1fd776c6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle_Material _2_Opacity.png using Guid(c96877a92c1cf82448cbf1fd776c6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a4996e98134ecb9b60cc8b796dafda') in 0.011161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/extra assets comedor/Bottle_Material _2_Emissive.png
+  artifactKey: Guid(e8197fe9d16874b47b851fc57c3948e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/Bottle_Material _2_Emissive.png using Guid(e8197fe9d16874b47b851fc57c3948e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943f27d71b54acc4189be3ae10d8f715') in 0.011269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/extra assets comedor/arcade 5.mat
+  artifactKey: Guid(d373d6e645a3fc24481a07964794dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/arcade 5.mat using Guid(d373d6e645a3fc24481a07964794dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebec18377a41bf0b5c0182634ecbcb96') in 0.012657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/extra assets comedor/MissleCabin_Diffuse.png
+  artifactKey: Guid(49d7c8a3db6391a42bd8c84750910375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/MissleCabin_Diffuse.png using Guid(49d7c8a3db6391a42bd8c84750910375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc23b3efe4e60849d87b33fc55e7df72') in 0.011578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/extra assets comedor/TronCabin_Diffuse.png
+  artifactKey: Guid(d4c53b964bd9c3c48aa92ed75001a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/TronCabin_Diffuse.png using Guid(d4c53b964bd9c3c48aa92ed75001a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9fbeb54eebb17de8d01f4ade88eab2') in 0.011303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/extra assets comedor/bouteille_biere.fbx
+  artifactKey: Guid(079415f4c6916274fb963efb2d37ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/bouteille_biere.fbx using Guid(079415f4c6916274fb963efb2d37ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fa95704c6b2ab0cf5ab80065e6373c') in 0.164622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/extra assets comedor/lambert_baseColor.png
+  artifactKey: Guid(5304ea43c2cb45e48950749f5831c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/extra assets comedor/lambert_baseColor.png using Guid(5304ea43c2cb45e48950749f5831c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e158ca73bbf8963215f30134835f8bf8') in 0.011888 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
