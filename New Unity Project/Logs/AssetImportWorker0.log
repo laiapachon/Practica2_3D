@@ -1,73 +1,71 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 16315 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16263 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+S:\Unity\Unity_Uni\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project
+S:/GitHub/Practica2_3D/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64594
-Successfully changed project path to: C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project
-C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project
+54910
+Successfully changed project path to: S:/GitHub/Practica2_3D/New Unity Project
+S:/GitHub/Practica2_3D/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.75 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 46.70 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Laia/Desktop/racing car/Practica2_3D/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/GitHub/Practica2_3D/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
     Vendor:   
-    VRAM:     8171 MB
-    Driver:   30.0.13023.4001
+    VRAM:     8081 MB
+    Driver:   30.0.15.1123
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Mono path[0] = 'S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002823 seconds.
+Register platform support module: S:/Unity/Unity_Uni/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001319 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.07 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 37.73 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
+- Completed reload, in  0.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (591ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (474ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (166ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (168ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (84ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (81ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,263 +73,9 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004629 seconds.
+Registered in 0.003224 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Auto Package] : Checking if required packages are included
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PackageChecker:CheckPackage ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-PackageChecker:CheckPackage ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (813ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (322ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1778 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.1 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2219.
-Total: 2.780300 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.543100 ms  DeleteObjects: 0.057000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/extra assets comedor/Unity2Skfb.gltf
-  artifactKey: Guid(4d6f8a462c76bbd4a93267d85ea0fb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/Unity2Skfb.gltf using Guid(4d6f8a462c76bbd4a93267d85ea0fb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908f9c2d33f5ad75bab11eb65c47c792') in 0.036295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1031.416121 seconds.
-  path: Assets/extra assets comedor/fast food counter.fbx
-  artifactKey: Guid(51ef1f6799ec80c43a6335bbfc4ca6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter.fbx using Guid(51ef1f6799ec80c43a6335bbfc4ca6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ab56da031d1d840e3688fdd693b274') in 0.103210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 144.061313 seconds.
-  path: Assets/extra assets comedor/fast food counter_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(ba374874a28ca7f47929e3e75c7ef216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter_DefaultMaterial_BaseColor.png using Guid(ba374874a28ca7f47929e3e75c7ef216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3daccccb1343cee30f41dcfdb262af') in 0.034452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/extra assets comedor/fast food counter_DefaultMaterial_Normal.png
-  artifactKey: Guid(1b5791d7946a94346bd8f6281045d27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter_DefaultMaterial_Normal.png using Guid(1b5791d7946a94346bd8f6281045d27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f11041e285103ca2aaf5a469f7545cb') in 0.016161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/extra assets comedor/fast food counter_DefaultMaterial_Metallic.png
-  artifactKey: Guid(9f3604ff205acf445be0f2f136422854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter_DefaultMaterial_Metallic.png using Guid(9f3604ff205acf445be0f2f136422854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defe1efb1552acb1eaad4b0e1c09ca0f') in 0.016291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/extra assets comedor/fast food counter_DefaultMaterial_Height.png
-  artifactKey: Guid(efcaa521331bf9043a0ba058d34d6f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter_DefaultMaterial_Height.png using Guid(efcaa521331bf9043a0ba058d34d6f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6257681295f5449dd84d1427faf4bb37') in 0.013420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/extra assets comedor/fast food counter_DefaultMaterial_Roughness.png
-  artifactKey: Guid(3a602ceedbff93b428b7ff9ffd2e7822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter_DefaultMaterial_Roughness.png using Guid(3a602ceedbff93b428b7ff9ffd2e7822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390daf06544b6f8147ea4e74b70067de') in 0.013684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.263367 seconds.
-  path: Assets/extra assets comedor
-  artifactKey: Guid(9e1c5e2577c9a0144a098d29be3471c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor using Guid(9e1c5e2577c9a0144a098d29be3471c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f330ef52217744c0bc81ea30be1e30') in 0.009031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.410327 seconds.
-  path: Assets/extra assets comedor/bar.mat
-  artifactKey: Guid(61b28d22df857fe43a0697b49ccddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/bar.mat using Guid(61b28d22df857fe43a0697b49ccddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe93ca9645b42dbba26bdf51f443f5b') in 0.046488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.579979 seconds.
-  path: Assets/extra assets comedor/fast food counter_DefaultMaterial_Normal.png
-  artifactKey: Guid(1b5791d7946a94346bd8f6281045d27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/fast food counter_DefaultMaterial_Normal.png using Guid(1b5791d7946a94346bd8f6281045d27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ddd1394e6d3b81e43ae0d06e97363a') in 0.018151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 104.152364 seconds.
-  path: Assets/extra assets comedor/NewsPaperVendingMachine.fbx
-  artifactKey: Guid(5f49b1e681f57e7418dec3be9eb17a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/NewsPaperVendingMachine.fbx using Guid(5f49b1e681f57e7418dec3be9eb17a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3618bfd6d3c2c8dfdaf2ecaa6a013093') in 0.026935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.428638 seconds.
-  path: Assets/extra assets comedor/NewsPaperVendingMachine_NewspaperVendingMa.png
-  artifactKey: Guid(7a88c2ef6538d6644acfa430774ddefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/NewsPaperVendingMachine_NewspaperVendingMa.png using Guid(7a88c2ef6538d6644acfa430774ddefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7801a6231a57ea1ce70d40a2c3a508') in 0.011680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.290616 seconds.
-  path: Assets/extra assets comedor/machine.mat
-  artifactKey: Guid(bc8e82d9ed462364387f44f39ce003c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/machine.mat using Guid(bc8e82d9ed462364387f44f39ce003c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa02a5bfb228f946bbb6ce6c70ddf982') in 0.011072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 107.886606 seconds.
-  path: Assets/extra assets comedor/SodaDispenserTableTopMAIN.fbx
-  artifactKey: Guid(681faec3da9eb85449ed869c5ec8c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/SodaDispenserTableTopMAIN.fbx using Guid(681faec3da9eb85449ed869c5ec8c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c9a8629d506df086a3c0c79dcad003') in 0.036220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 203.620260 seconds.
-  path: Assets/extra assets comedor/SodaDispenserTableTopMAIN.fbx
-  artifactKey: Guid(681faec3da9eb85449ed869c5ec8c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/SodaDispenserTableTopMAIN.fbx using Guid(681faec3da9eb85449ed869c5ec8c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc599d318fd9f0e0b06681e45b1628ff') in 0.041203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/extra assets comedor/SodaDispenserTEXTURE.png
-  artifactKey: Guid(4fbc564ece432304f8dcc86d978d4b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/SodaDispenserTEXTURE.png using Guid(4fbc564ece432304f8dcc86d978d4b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c690a2564854bd2d3b9879f9ed6415') in 0.011104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.555224 seconds.
-  path: Assets/extra assets comedor/SodaDispenser_N.png
-  artifactKey: Guid(d1ba29f5961f1c3419e91804212c783d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/SodaDispenser_N.png using Guid(d1ba29f5961f1c3419e91804212c783d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74a9c8584b6955488b83e21d75e55bd') in 0.011349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.574338 seconds.
-  path: Assets/extra assets comedor/dispensador.mat
-  artifactKey: Guid(cb0b3feb0be19aa4ca7f354fc56c7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/dispensador.mat using Guid(cb0b3feb0be19aa4ca7f354fc56c7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4202b1624c0decd9d3d226aaf365b9') in 0.011672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 227.726759 seconds.
-  path: Assets/extra assets comedor/machine.mat
-  artifactKey: Guid(bc8e82d9ed462364387f44f39ce003c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/machine.mat using Guid(bc8e82d9ed462364387f44f39ce003c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a65d0b0a3b1ed1482deb389e45630fd') in 0.012696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 276.251603 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_30k_uw.FBX
-  artifactKey: Guid(aed8f16cb671a9349a2090d63bb69fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_30k_uw.FBX using Guid(aed8f16cb671a9349a2090d63bb69fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4de334b57810ada4d987b00eeac7d8e') in 0.025168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.935032 seconds.
-  path: Assets/extra assets comedor/bar.mat
-  artifactKey: Guid(61b28d22df857fe43a0697b49ccddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/bar.mat using Guid(61b28d22df857fe43a0697b49ccddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356cf09c272cd7b72866d1f0f4a0cc25') in 0.024677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 182.346723 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_30k_albedo.jpg
-  artifactKey: Guid(4416ccdcefe545944a93fdc5ed644766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_30k_albedo.jpg using Guid(4416ccdcefe545944a93fdc5ed644766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f377eea01a9b8d9edf46fb0863384b34') in 0.014837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_30k_uw.FBX
-  artifactKey: Guid(aed8f16cb671a9349a2090d63bb69fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_30k_uw.FBX using Guid(aed8f16cb671a9349a2090d63bb69fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619b032da76d47d4b3082bf40d1a8510') in 0.020823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_occlusion.jpg
-  artifactKey: Guid(ae7a0921222b3c741a01a156e607f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_occlusion.jpg using Guid(ae7a0921222b3c741a01a156e607f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5729123d5399d94e7fced803f541541') in 0.010884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_30k_NormalsMap.jpg
-  artifactKey: Guid(1a26287568ec1e3409670829eea72c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_30k_NormalsMap.jpg using Guid(1a26287568ec1e3409670829eea72c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac3a786188009bde4876f23c83e2979') in 0.015851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_30k_alfa.jpg
-  artifactKey: Guid(2ca0aed088dab9c4b94224bad1a4ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_30k_alfa.jpg using Guid(2ca0aed088dab9c4b94224bad1a4ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2825a526220c9571c4cc8b66731a514d') in 0.017388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_concavity.jpg
-  artifactKey: Guid(520cc4b1dcf6eb842838e61481bbe886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_concavity.jpg using Guid(520cc4b1dcf6eb842838e61481bbe886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee88dfab653ba237460d47be1beb5ae') in 0.014945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.069461 seconds.
-  path: Assets/extra assets comedor/sand.mat
-  artifactKey: Guid(400edeac19c48eb4d85326dab08fd130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/sand.mat using Guid(400edeac19c48eb4d85326dab08fd130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65473a05a7eb6186f169c128a5d3930') in 0.010545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.796057 seconds.
-  path: Assets/extra assets comedor/hromada_pisek_01_30k_NormalsMap.jpg
-  artifactKey: Guid(1a26287568ec1e3409670829eea72c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/hromada_pisek_01_30k_NormalsMap.jpg using Guid(1a26287568ec1e3409670829eea72c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d71a9e91d6f80857aed73e7e12e11e6') in 0.014160 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004605 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Auto Package] : Checking if required packages are included
@@ -355,42 +99,45 @@ System.Reflection.MethodBase:Invoke (object,object[])
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  1.261 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1008ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (312ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (457ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 5 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.2 MB.
-System memory in use after: 89.3 MB.
+Unloading 1778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2267.
-Total: 2.830500 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.039800 ms MarkObjects: 2.630800 ms  DeleteObjects: 0.023600 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2219.
+Total: 2.838600 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.070200 ms MarkObjects: 2.567500 ms  DeleteObjects: 0.065300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -399,13 +146,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 383.181010 seconds.
-  path: Assets/extra assets comedor/sand.mat
-  artifactKey: Guid(400edeac19c48eb4d85326dab08fd130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/extra assets comedor/sand.mat using Guid(400edeac19c48eb4d85326dab08fd130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08204913513ddaf68be804de9273f6cc') in 0.068790 seconds 
+  path: Assets/PostP-1.asset
+  artifactKey: Guid(af039341381c7f54788fe2910cf7a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostP-1.asset using Guid(af039341381c7f54788fe2910cf7a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297998766f32c87d6eff658694070b0d') in 0.073433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Rise of The Heroes.mp3
+  artifactKey: Guid(9b50309145ee2724b84ed5e00f4a1d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rise of The Heroes.mp3 using Guid(9b50309145ee2724b84ed5e00f4a1d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcfb333f072ad816e9fcead851b7b1a') in 0.205592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.891655 seconds.
+  path: Assets/Ultra Emissive Particles Shader
+  artifactKey: Guid(2862f634a0f20574b830249540b229e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader using Guid(2862f634a0f20574b830249540b229e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed69e7bbe78b78aa570a1b1d1f57023') in 0.005201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.230891 seconds.
+  path: Assets/Ultra Emissive Particles Shader/Prefabs
+  artifactKey: Guid(af89c76a815a4dc4f93847baa6ec9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader/Prefabs using Guid(af89c76a815a4dc4f93847baa6ec9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052a0fcbf5f72c500154a6665bf99c6f') in 0.005717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030498 seconds.
+  path: Assets/Ultra Emissive Particles Shader/Prefabs/Sparks Subtle.prefab
+  artifactKey: Guid(8af7fc23449fb134587debd98a00604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader/Prefabs/Sparks Subtle.prefab using Guid(8af7fc23449fb134587debd98a00604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+ -> (artifact id: 'f23f994bc8a81503171efbbb101bd72b') in 0.136949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Ultra Emissive Particles Shader/Prefabs/Sparks.prefab
+  artifactKey: Guid(ce56f814fa0835a43aba1716e41c3173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader/Prefabs/Sparks.prefab using Guid(ce56f814fa0835a43aba1716e41c3173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+ -> (artifact id: 'abce8ccd608f0dabedd1f76d79b32a3f') in 0.013872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.894045 seconds.
+  path: Assets/Ultra Emissive Particles Shader/Materials/Sparks1.mat
+  artifactKey: Guid(88b4cae619359a64295ac60e4ea6fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader/Materials/Sparks1.mat using Guid(88b4cae619359a64295ac60e4ea6fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+ -> (artifact id: '300ddf586fccc6bb952cbb5805c48cdf') in 0.034207 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Auto Package] : Checking if required packages are included
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+PackageChecker:CheckPackage ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1043ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1740 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.059200 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.817700 ms  DeleteObjects: 0.026800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
